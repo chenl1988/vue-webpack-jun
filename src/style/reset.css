@@ -1,0 +1,154 @@
+ html {
+   /*谷歌浏览器字体最小字体12px*/
+   -webkit-text-size-adjust: 100%;
+   /*100%/none 关闭字体大小自动调整功能*/
+   /*a标签及拥有 :active伪类的元素有默认的高亮框*/
+   -webkit-tap-highlight-color: transparent;
+   /*禁止文本被选中*/
+   -webkit-user-select: none;
+   width: 100%;
+ }
+
+ body {
+   /* max-width:7.5rem; */
+   margin: 0 auto;
+   /*开启moblie网页快速滚动和回弹的效果*/
+   -webkit-overflow-scrolling: touch;
+   color: #333;
+ }
+
+ body,
+ div,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ hr,
+ p,
+ blockquote,
+ dl,
+ dt,
+ dd,
+ ul,
+ ol,
+ li,
+ pre,
+ form,
+ fieldset,
+ legend,
+ button,
+ input,
+ textarea,
+ select,
+ option,
+ table,
+ tr,
+ th,
+ td,
+ span,
+ i,
+ em,
+ audio,
+ video,
+ img,
+ section,
+ article,
+ a,
+ font {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   vertical-align: baseline;
+   background: transparent;
+   word-wrap: break-word;
+   box-sizing: border-box;
+ }
+
+ em,
+ i {
+   font-style: normal;
+ }
+
+ body,
+ html,
+ input {
+   font-family: "PingFangSC-Regular", "Microsoft YaHei", "SimHei", "PMingLiU", Arial, "Lucida Grande", sans-serif, "STHeiti Light";
+ }
+
+ form,
+ input,
+ label,
+ img,
+ th {
+   vertical-align: middle;
+ }
+
+ textarea {
+   resize: none;
+ }
+
+ input::-moz-placeholder,
+ textarea::-moz-placeholder {
+   color: #8C8C8C;
+ }
+
+ input:-ms-input-placeholder,
+ textarea:-ms-input-placeholder {
+   color: #8C8C8C;
+ }
+
+ input::-webkit-input-placeholder,
+ textarea::-webkit-input-placeholder {
+   color: #8C8C8C;
+ }
+
+ table {
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
+
+ del {
+   text-decoration: line-through;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-size: 0.32rem;
+   font-weight: normal;
+ }
+
+ ul,
+ ol,
+ li,
+ dl,
+ dt,
+ dd {
+   list-style: none;
+ }
+
+ a,
+ img {
+   display: block;
+ }
+
+ a:link {
+   color: #333;
+   text-decoration: none;
+ }
+
+ a:visited {
+   color: #333;
+   text-decoration: none;
+ }
+
+ a:hover {
+   color: #333;
+   text-decoration: none;
+ }
